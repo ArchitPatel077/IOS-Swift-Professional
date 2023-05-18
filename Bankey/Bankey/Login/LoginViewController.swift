@@ -79,7 +79,6 @@ extension LoginViewController {
     
     @objc func signInTapped(sender: UIButton) {
         errorMessageLabel.isHidden = true
-        
         login()
     }
     
